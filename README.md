@@ -1,6 +1,6 @@
-# nginx.conf
+# conf
 
-nginx configuration optimized for you
+configuration files optimized for you
 
 ## Used Resources
 
@@ -10,7 +10,13 @@ nginx configuration optimized for you
 
 ## Usage
 
+### [nginx](https://nginx.org)
+
 Replace `/etc/nginx/nginx.conf` file with this one which in this repo
+
+### [binserve](https://github.com/mufeedvh/binserve)
+
+Use `binserve.json` from this repo
 
 ## License
 
