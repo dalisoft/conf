@@ -9,6 +9,7 @@ configuration files optimized for you
 - <https://sysopstechnix.com/7-tips-for-nginx-performance-tuning>
 - <https://www.freecodecamp.org/news/powerful-ways-to-supercharge-your-nginx-server-and-improve-its-performance-a8afdbfde64d>
 - <https://risaksson.com/post/9/2022-05-10/HTTP3-with-NGINX>
+- <https://github.com/macbre/docker-nginx-http3/blob/master/nginx.conf>
 
 ## Usage
 
