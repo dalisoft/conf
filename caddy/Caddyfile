@@ -1,0 +1,23 @@
+{
+	http_port 4301
+	https_port 4300
+	# http3_port 4300
+	auto_https off
+	debug
+}
+
+:4300 {
+	tls /home/ubuntu/Documents/ssb/ssl/cert.pem /home/ubuntu/Documents/ssb/ssl/privkey.pem {
+		protocols tls1.3
+		ca_root /home/ubuntu/Documents/ssb/ssl/fullchain.pem
+		ca /home/ubuntu/Documents/ssb/ssl/chain.pem
+		client_auth {
+			 mode verify_if_given
+			 trusted_ca_cert_file /home/ubuntu/Documents/ssb/ssl/chain.pem
+		 }
+	}
+	header alt-svc "h3=\":4300\"; ma=2592000,h3-29=\":4300\"; ma=2592000"
+	root * /home/ubuntu/Documents/ssb/static
+	file_server
+	encode zstd gzip
+}

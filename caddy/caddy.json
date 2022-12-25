@@ -1,0 +1,32 @@
+{
+  "apps": {
+    "http": {
+      "servers": {
+        "serve": {
+          "listen": ["127.0.0.1:4300"],
+          "routes": [
+            {
+              "handle": [
+                {
+                  "handler": "file_server",
+                  "root": "/home/ubuntu/Documents/ssb/static"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "tls": {
+      "certificates": {
+        "load_files": [
+          {
+            "certificate": "/home/ubuntu/Documents/ssb/ssl/cert.pem",
+            "key": "/home/ubuntu/Documents/ssb/ssl/privkey.pem",
+            "format": "pem"
+          }
+        ]
+      }
+    }
+  }
+}

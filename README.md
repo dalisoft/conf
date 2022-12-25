@@ -15,7 +15,7 @@ configuration files optimized for you
 
 ### [nginx](https://nginx.org)
 
-Replace `/etc/nginx/nginx.conf` file with this one which in this repo.
+Replace `/etc/nginx-http{VER}/nginx.conf` file with this one which in this repo.
 
 You can use [this image](https://github.com/macbre/docker-nginx-http3) for Docker
 
