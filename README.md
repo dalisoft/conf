@@ -23,6 +23,10 @@ You can use [this image](https://github.com/macbre/docker-nginx-http3) for Docke
 
 Use `binserve.json` from this repo
 
+### [postgres](https://postgresql.org)
+
+Use [`postgres.conf`](./postgres/postgres.conf) from this repo
+
 ## License
 
 MIT-License
