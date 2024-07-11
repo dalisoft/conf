@@ -12,9 +12,9 @@
 		ca_root /home/ubuntu/Documents/ssb/ssl/fullchain.pem
 		ca /home/ubuntu/Documents/ssb/ssl/chain.pem
 		client_auth {
-			 mode verify_if_given
-			 trusted_ca_cert_file /home/ubuntu/Documents/ssb/ssl/chain.pem
-		 }
+			mode verify_if_given
+			trusted_ca_cert_file /home/ubuntu/Documents/ssb/ssl/chain.pem
+		}
 	}
 	header alt-svc "h3=\":4300\"; ma=2592000,h3-29=\":4300\"; ma=2592000"
 	root * /home/ubuntu/Documents/ssb/static

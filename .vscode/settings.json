@@ -1,3 +1,9 @@
 {
-  "nginx-conf-hint.format.align": true
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[nginx]": {
+		"editor.defaultFormatter": "raynigon.nginx-formatter"
+	}
 }

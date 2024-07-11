@@ -1,27 +1,27 @@
 {
-  "server": {
-    "host": "0.0.0.0:80",
-    "tls": {
-      "host": "0.0.0.0:443",
-      "enable": true,
-      "key": "CERTIFICATE_KEY",
-      "cert": "CERTIFICATE_FILE"
-    }
-  },
-  "routes": {
-    "/": "static/"
-  },
-  "static": {
-    "directory": "static",
-    "served_from": "/static"
-  },
-  "config": {
-    "enable_hot_reload": false,
-    "fast_mem_cache": true,
-    "enable_cache_control": false,
-    "enable_directory_listing": false,
-    "minify_html": false,
-    "follow_symlinks": false,
-    "enable_logging": false
-  }
+	"server": {
+		"host": "0.0.0.0:80",
+		"tls": {
+			"host": "0.0.0.0:443",
+			"enable": true,
+			"key": "CERTIFICATE_KEY",
+			"cert": "CERTIFICATE_FILE"
+		}
+	},
+	"routes": {
+		"/": "static/"
+	},
+	"static": {
+		"directory": "static",
+		"served_from": "/static"
+	},
+	"config": {
+		"enable_hot_reload": false,
+		"fast_mem_cache": true,
+		"enable_cache_control": false,
+		"enable_directory_listing": false,
+		"minify_html": false,
+		"follow_symlinks": false,
+		"enable_logging": false
+	}
 }
