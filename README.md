@@ -25,7 +25,7 @@ Use `binserve.json` from this repo
 
 ### [postgres](https://postgresql.org)
 
-Use [`postgres.conf` 1core/2GB RAM](./postgres/postgres_1c-2gb.conf) or [`postgres.conf` 2core/4GB RAM](./postgres/postgres_2c-4gb.conf) from this repo
+Use [`postgres.conf` 1core/1GB RAM](./postgres/postgres_1c-1gb.conf), [`postgres.conf` 1core/2GB RAM](./postgres/postgres_1c-2gb.conf) or [`postgres.conf` 2core/4GB RAM](./postgres/postgres_2c-4gb.conf) from this repo
 
 ## License
 
