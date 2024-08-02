@@ -11,6 +11,11 @@ configuration files optimized for you
 - <https://risaksson.com/post/9/2022-05-10/HTTP3-with-NGINX>
 - <https://github.com/macbre/docker-nginx-http3/blob/master/nginx.conf>
 
+## Useful Resources
+
+- <https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server>
+- <https://sematext.com/blog/postgresql-performance-tuning>
+
 ## Usage
 
 ### [nginx](https://nginx.org)
